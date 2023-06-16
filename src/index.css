@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;  
+}
+
+body {
+  background-color: #F9FAF4;
+  margin: 0 15%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h2 {
+  color: #4A6163
+  ;
+}
+
+h4 {
+  font-family: 'Lato', sans-serif;  
+  font-size: 1rem;
+  color: #4A6163;
+}
+
+h3 {
+  font-family: "Oswald", "sans-serif";
+  font-size: 1.5rem;
+  color: #4A6163;
+  line-height: 2.5rem;
+  margin: 2rem 0rem;
+}
+
+
+a{
+  text-decoration: none;
+  color: #4A6163;
+}
+
+p {
+  color: #4A6163;
+}
+
+
+
+
+
+@media screen and (min-width: 1000px) {
+  body {
+    margin: 0 12%;
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 1025px) {
+  body {
+    margin: 0 8%;
+  }
+
+}
+
+
+@media screen and (max-width: 700px) {
+  body {
+    margin: 0 5%;
+  }
+
+
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    margin: 0 5%;
+  }
+
+
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    margin: 0 5%;
+  }
+
+}
+
+
+.page-enter {
+  opacity: 0;
+  transform: translateX(-50px);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 500ms, transform 500ms;
+}
+
+.page-exit {
+  opacity: 0;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transition: opacity 500ms, transform 500ms;
+}
+
