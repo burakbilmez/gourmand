@@ -9,7 +9,8 @@ import Recipe from "./Recipe";
 
 function Pages() {
   const location = useLocation();
-  const [setIsAnimating] = useState(false);
+  // eslint-disable-next-line
+  const [isAnimating, setIsAnimating] = useState(false);
 
   const onAnimationStart = () => {
     setIsAnimating(true);
