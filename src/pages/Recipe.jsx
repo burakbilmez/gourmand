@@ -92,6 +92,7 @@ const DetailWrapper = styled.div`
     margin-top: 1rem;
     text-transform: capitalize;
     margin-left: 2rem;
+    color: #4A6163;
   }
 
   ul {
@@ -112,7 +113,7 @@ const Button = styled.button`
   align-items: center;
   justify-content: center;
   transition: all 0.2s ease-in-out;
-  color: ${({ isActive }) => (isActive ? "#F9FAF4" : "black")};
+  color: ${({ isActive }) => (isActive ? "#F9FAF4" : "#4A6163")};
 
   &:hover {
     background: #4A6163;
